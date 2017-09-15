@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+body{
+  background: rgb(20,120,120);
+}
+
+.quotebox{
+  background: white;
+  margin: 10% auto;
+  width: 50%;
+  style: none;
+  padding: 50px;
+  border-radius: 1em;
+}
+
+.btn{
+  float: right;
+  border: none;
+  background: rgb(20,120,120);
+  color:white;
+}
+.btn:hover{
+  background: rgb(123,34,56);
+  color:white;
+}
+.btn:click{
+  background: rgb(20,120,120);
+}
+.btn:focus,.btn:active{
+  outline:0 !important;
+  outline-style: none;
+  outline-width: 0;
+  background: rgb(20,120,120);
+  color:white;
+}
+
+.twitter{
+  float:left;
+}
+
+.quote{
+  text-align: center;
+  font-family: Nunito;
+}
+.author{
+  float: right;
+  margin-right: 40px;
+}
+
+.titleHead{
+  text-align: center;
+  color: white;
+  text-shadow: 1px 3px 1px rgb(0,0,0);
+  font-family: Nunito;
+  font-size: 5em;
+}
+
+blockquote{
+  border: none;
+}
